@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Errors Validation Error 1`] = `
+"URL Loader Invalid Options
+
+options.publicPath should be {String}/{Function} (https://github.com/webpack-loader/url#publicpath)
+"
+`;

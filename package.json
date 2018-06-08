@@ -1,0 +1,38 @@
+{
+  "name": "@webpack-loader/url",
+  "version": "0.0.1",
+  "description": "URL/File Loader",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "dependencies": {
+    "@webpack-utilities/loader": "^1.0.0-alpha.0",
+    "@webpack-utilities/schema": "^1.0.0-alpha.0",
+    "mime": "^2.3.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.0",
+    "@webpack-utilities/test": "^1.0.0-alpha.0",
+    "del-cli": "^1.0.0",
+    "jest": "^23.0.0",
+    "standard": "^11.0.0",
+    "standard-version": "^4.0.0",
+    "webpack": "^4.0.0"
+  },
+  "scripts": {
+    "lint": "standard --env jest",
+    "test": "jest --verbose --coverage",
+    "clean": "del-cli coverage",
+    "release": "commitlint --to 'HEAD' && standard-version"
+  },
+  "bugs": "https://github.com/webpack-loader/url/issues",
+  "homepage": "https://github.com/webpack-loader/url",
+  "repository": "https://github.com/webpack-loader/url.git",
+  "author": "Michael Ciniawsky (@michael-ciniawsky) <michael.ciniawsky@gmail.com>",
+  "license": "MIT"
+}

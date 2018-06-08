@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Defaults 1`] = `"export default __webpack_public_path__ + \\"39f5c21c.png\\";"`;

@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "anyOf":[
+        { "type": "string" },
+        { "typeof": "function" }
+      ]
+    },
+    "regExp": {
+      "instanceof": "RegExp"
+    },
+    "context": {
+      "type": "string"
+    },
+    "limit": {
+      "type": [ "string", "number" ]
+    },
+    "publicPath": {
+      "anyOf":[
+        { "type": "string" },
+        { "typeof": "function" }
+      ]
+    },
+    "outputPath": {
+      "anyOf":[
+        { "type": "string" },
+        { "typeof": "function" }
+      ]
+    }
+  },
+  "errorMessage": {
+    "properties": {
+      "name": "should be {String}/{Function} (https://github.com/webpack-loader/url#name)",
+      "regExp": "should be {RegExp} (https://github.com/webpack-loader/url#regexp)",
+      "limit": "should be {String}/{Number} (https://github.com/webpack-loader/url#limit)",
+      "context": "should be {String} (https://github.com/webpack-loader/url#context)",
+      "publicPath": "should be {String}/{Function} (https://github.com/webpack-loader/url#publicpath)",
+      "outputPath": "should be {String}/{Function} (https://github.com/webpack-loader/url#outputpath)"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Options publicPath {Function} 1`] = `
+Object {
+  "assets": Array [
+    "39f5c21c.png",
+  ],
+  "source": "export default \\"public_path_fn/39f5c21c.png\\";",
+}
+`;
+
+exports[`Options publicPath {String} - URL 1`] = `
+Object {
+  "assets": Array [
+    "39f5c21c.png",
+  ],
+  "source": "export default \\"https://cdn.com/39f5c21c.png\\";",
+}
+`;
+
+exports[`Options publicPath {String} 1`] = `
+Object {
+  "assets": Array [
+    "39f5c21c.png",
+  ],
+  "source": "export default \\"public_path/39f5c21c.png\\";",
+}
+`;
