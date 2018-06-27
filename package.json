@@ -1,6 +1,6 @@
 {
   "name": "@webpack-loader/url",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha.0",
   "description": "URL/File Loader",
   "main": "src/index.js",
   "files": [
